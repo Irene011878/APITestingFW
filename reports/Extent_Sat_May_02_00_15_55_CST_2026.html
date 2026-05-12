@@ -1,0 +1,2824 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">may 2, 2026 12:15:55 a.m.</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:15:59 a.m.</span> / <span>00:00:04:549</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:15:59 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-default'>00:00:04:549</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:15:59 a.m.</span> / <span>00:00:04:437</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:15:59 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:03 a.m.</span>
+<span class='badge badge-default'>00:00:04:437</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:03 a.m.</td>
+        <td>
+          {email=cus_UQYsEu0Ox2dctu, name=Wrongly, description=Adding customer with wrong secret key}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:03 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:03 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:03 a.m.</span> / <span>00:00:00:422</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:03 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-default'>00:00:00:422</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          {email=, name=, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:04 a.m.</span> / <span>00:00:00:696</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-default'>00:00:00:696</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:04 a.m.</span> / <span>00:00:00:389</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-default'>00:00:00:389</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          {email=, name=deleteCustomer, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:04 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:04 a.m.</span> / <span>00:00:00:651</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-default'>00:00:00:651</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:04 a.m.</span> / <span>00:00:00:391</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:04 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-default'>00:00:00:391</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          {email=, name=id, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:05 a.m.</span> / <span>00:00:00:391</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-default'>00:00:00:391</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          {email=, name=cus_UQYtOy94v1YPy7, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:05 a.m.</span> / <span>00:00:00:482</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-default'>00:00:00:482</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:26)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:05 a.m.</span> / <span>00:00:00:376</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-default'>00:00:00:376</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          {email=, name=cus_UQYt3FRAqSedtI, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:05 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:05 a.m.</span> / <span>00:00:00:602</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:06 a.m.</span>
+<span class='badge badge-default'>00:00:00:602</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:05 a.m.</span> / <span>00:00:00:378</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:05 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:06 a.m.</span>
+<span class='badge badge-default'>00:00:00:378</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsOALH6Un6tE, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:06 a.m.</span> / <span>00:00:00:385</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:06 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:06 a.m.</span>
+<span class='badge badge-default'>00:00:00:385</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsSPHHcpdu0b, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:06 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:06 a.m.</span> / <span>00:00:00:780</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:06 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-default'>00:00:00:780</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:06 a.m.</span> / <span>00:00:00:381</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:06 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-default'>00:00:00:381</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsmUkWLVoZEc, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:07 a.m.</span> / <span>00:00:00:379</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-default'>00:00:00:379</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          {email=, name=cus_UQYs55Y7Frfe4a, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:07 a.m.</span> / <span>00:00:00:648</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-default'>00:00:00:648</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:07 a.m.</span> / <span>00:00:00:377</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-default'>00:00:00:377</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsKduyTq0PGJ, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:07 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:07 a.m.</span> / <span>00:00:00:382</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-default'>00:00:00:382</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          {email=, name=cus_UQYstZXyVB3Sug, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:07 a.m.</span> / <span>00:00:00:658</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:07 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-default'>00:00:00:658</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:08 a.m.</span> / <span>00:00:00:408</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-default'>00:00:00:408</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsEqXxPBIpM8, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:08 a.m.</span> / <span>00:00:00:654</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-default'>00:00:00:654</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:08 a.m.</span> / <span>00:00:00:372</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-default'>00:00:00:372</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsKu9YEb1tkS, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:08 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:08 a.m.</span> / <span>00:00:00:387</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:08 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-default'>00:00:00:387</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsrzC4B1xJ3B, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:09 a.m.</span> / <span>00:00:00:460</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-default'>00:00:00:460</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:26)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:09 a.m.</span> / <span>00:00:00:383</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-default'>00:00:00:383</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          {email=, name=cus_UQYseydFkeGVQo, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:09 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:09 a.m.</span> / <span>00:00:00:642</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:10 a.m.</span>
+<span class='badge badge-default'>00:00:00:642</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:09 a.m.</span> / <span>00:00:00:364</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:09 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:10 a.m.</span>
+<span class='badge badge-default'>00:00:00:364</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsSEBjOLakMq, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:10 a.m.</span> / <span>00:00:00:369</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:10 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:10 a.m.</span>
+<span class='badge badge-default'>00:00:00:369</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsyOcEMyw29Y, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:10 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:10 a.m.</span> / <span>00:00:00:710</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:10 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-default'>00:00:00:710</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:26)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:10 a.m.</span> / <span>00:00:00:643</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:10 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-default'>00:00:00:643</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsU4YdF59JDa, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:11 a.m.</span> / <span>00:00:00:532</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-default'>00:00:00:532</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:26)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:11 a.m.</span> / <span>00:00:00:390</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-default'>00:00:00:390</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsEu0Ox2dctu, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:11 a.m.</span> / <span>00:00:00:388</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-default'>00:00:00:388</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsGCwf3H78QY, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:11 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="35"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:11 a.m.</span> / <span>00:00:00:488</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-default'>00:00:00:488</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:26)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:11 a.m.</span> / <span>00:00:00:380</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:11 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-default'>00:00:00:380</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          {email=, name=cus_UQYsesRiaEzV0t, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:12 a.m.</span> / <span>00:00:00:626</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-default'>00:00:00:626</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="38"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:12 a.m.</span> / <span>00:00:00:372</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-default'>00:00:00:372</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          {email=, name=cus_UQYpOHSK01xUqA, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:12 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="39"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:12 a.m.</span> / <span>00:00:00:481</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-default'>00:00:00:481</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:26)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="40"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithInValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:12 a.m.</span> / <span>00:00:00:389</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:12 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-default'>00:00:00:389</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          {email=, name=cus_UQYp8hxa1OwDvd, description=}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.testng.Assert.fail(Assert.java:111)<br> org.testng.Assert.failNotEquals(Assert.java:1590)<br> org.testng.Assert.assertEqualsImpl(Assert.java:150)<br> org.testng.Assert.assertEquals(Assert.java:132)<br> org.testng.Assert.assertEquals(Assert.java:1431)<br> org.testng.Assert.assertEquals(Assert.java:1395)<br> org.testng.Assert.assertEquals(Assert.java:1441)<br> testCases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:54)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br> org.testng.TestRunner.privateRun(TestRunner.java:744)<br> org.testng.TestRunner.run(TestRunner.java:616)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br> org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)<br> org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)<br> java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)<br> java.base/java.lang.Thread.run(Thread.java:1570)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:13 a.m.</span> / <span>00:00:00:632</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-default'>00:00:00:632</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          {email=LuisAguilar@way2automation.com, name=Jose Luis, description=Adding a new customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:13 a.m.</span> / <span>00:00:00:599</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-default'>00:00:00:599</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:13 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:13 a.m.</span> / <span>00:00:00:625</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-default'>00:00:00:625</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:14 a.m.</td>
+        <td>
+          {email=jm@way2automation.com, name=Juana Maria, description=Adding second customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:14 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="44"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:13 a.m.</span> / <span>00:00:00:613</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:13 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-default'>00:00:00:613</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:14 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:14 a.m.</span> / <span>00:00:00:629</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-default'>00:00:00:629</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:14 a.m.</td>
+        <td>
+          {email=iap@way2automation.com, name=Irene, description=Adding third customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:14 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:14 a.m.</span> / <span>00:00:00:621</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-default'>00:00:00:621</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:14 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:14 a.m.</span> / <span>00:00:00:580</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:15 a.m.</span>
+<span class='badge badge-default'>00:00:00:580</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:15 a.m.</td>
+        <td>
+          {email=gap@way2automation.com, name=Gabriela, description=Adding fourth customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:15 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.DeleteCustomerTest     @TestCase : deleteCustomer</p>
+            <p class="text-sm">
+              <span>12:16:14 a.m.</span> / <span>00:00:00:635</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.DeleteCustomerTest @TestCase : deleteCustomer</h5>
+<span class='badge badge-success'>05.02.2026 12:16:14 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:15 a.m.</span>
+<span class='badge badge-default'>00:00:00:635</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:15 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- DELETECUSTOMER PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:15 a.m.</span> / <span>00:00:00:573</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:15 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:16 a.m.</span>
+<span class='badge badge-default'>00:00:00:573</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:16 a.m.</td>
+        <td>
+          {email=nap@way2automation.com, name=Nicolas, description=Adding fifth customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:16 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:16 a.m.</span> / <span>00:00:00:585</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:16 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:16 a.m.</span>
+<span class='badge badge-default'>00:00:00:585</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:16 a.m.</td>
+        <td>
+          {email=gma@way2automation.com, name=Gabita, description=Adding sixth customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:16 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="51"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:16 a.m.</span> / <span>00:00:00:596</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:16 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:17 a.m.</span>
+<span class='badge badge-default'>00:00:00:596</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:17 a.m.</td>
+        <td>
+          {email=sma@way2automation.com, name=Sofia, description=Adding seventh customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:17 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="52"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.CreateCustomerTest     @TestCase : validateCreateCustomerAPIWithValidSecretKey</p>
+            <p class="text-sm">
+              <span>12:16:17 a.m.</span> / <span>00:00:00:586</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey</h5>
+<span class='badge badge-success'>05.02.2026 12:16:17 a.m.</span>
+<span class='badge badge-danger'>05.02.2026 12:16:17 a.m.</span>
+<span class='badge badge-default'>00:00:00:586</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:16:17 a.m.</td>
+        <td>
+          {email=eeca@way2automation.com, name=Emmita, description=Adding eighth customer in framework}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:16:17 a.m.</td>
+        <td>
+          <span class='badge white-text green'><b>TEST CASE:- VALIDATECREATECUSTOMERAPIWITHVALIDSECRETKEY PASSED</b></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>may 2, 2026 12:15:55 a.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>may 2, 2026 12:16:17 a.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>22</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>30</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='42%'>
+<b>22</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='57%'><b>30</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='19%'><b>22</b> events passed</small></div>
+<div>
+<small data-tooltip='52%'><b>60</b> events failed,
+<b data-tooltip='%'>32</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testCases.DeleteCustomerTest @TestCase : deleteCustomer":4.549,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":4.437,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.422,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.696,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.389,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.651,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.391,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.391,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.482,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.376,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.602,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.378,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.385,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.78,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.381,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.379,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.648,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.377,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.382,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.658,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.408,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.654,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.372,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.387,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.46,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.383,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.642,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.364,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.369,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.71,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.643,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.532,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.39,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.388,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.488,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.38,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.626,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.372,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.481,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithInValidSecretKey":0.389,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.632,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.599,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.625,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.613,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.629,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.621,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.58,"testCases.DeleteCustomerTest @TestCase : deleteCustomer":0.635,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.573,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.585,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.596,"testCases.CreateCustomerTest @TestCase : validateCreateCustomerAPIWithValidSecretKey":0.586
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Automation Tester</td>
+<td>Rahul Arora</td>
+</tr>
+<tr>
+<td>Organization</td>
+<td>Way2Automation</td>
+</tr>
+<tr>
+<td>Build no</td>
+<td>W2A-1234</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 22,
+failParent: 30,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 22,
+failEvents: 60,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 32
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
