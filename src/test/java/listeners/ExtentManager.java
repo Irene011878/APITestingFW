@@ -22,7 +22,7 @@ public class ExtentManager {
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
 
-        extent.setSystemInfo("Automation Tester", "Rahul Arora");
+        extent.setSystemInfo("Automation Tester", "Irene Aguilar");
         extent.setSystemInfo("Organization", "Way2Automation");
         extent.setSystemInfo("Build no", "W2A-1234");
 

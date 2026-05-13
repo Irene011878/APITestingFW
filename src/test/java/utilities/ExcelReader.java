@@ -65,8 +65,9 @@ public class ExcelReader {
 
 
     // returns the data from a cell
+    //SE CORREGIRA 12 MAYO *****************
     public String getCellData(String sheetName,String colName,int rowNum){
-        try{
+       /* try{
             if(rowNum <=0)
                 return "";
 
@@ -128,14 +129,96 @@ public class ExcelReader {
 
             e.printStackTrace();
             return "row "+rowNum+" or column "+colName +" does not exist in xls";
+        }*/
+
+        try {
+
+            if (rowNum <= 0)
+                return "";
+
+            int index = workbook.getSheetIndex(sheetName);
+            int col_Num = -1;
+
+            if (index == -1)
+                return "";
+
+            sheet = workbook.getSheetAt(index);
+            row = sheet.getRow(0);
+
+            for (int i = 0; i < row.getLastCellNum(); i++) {
+
+                if (row.getCell(i).getStringCellValue().trim()
+                        .equals(colName.trim())) {
+
+                    col_Num = i;
+                }
+            }
+
+            if (col_Num == -1)
+                return "";
+
+            row = sheet.getRow(rowNum - 1);
+
+            if (row == null)
+                return "";
+
+            cell = row.getCell(col_Num);
+
+            if (cell == null)
+                return "";
+
+            switch (cell.getCellType()) {
+
+                case STRING:
+                    return cell.getStringCellValue();
+
+                case NUMERIC:
+
+                    if (DateUtil.isCellDateFormatted(cell)) {
+
+                        Calendar cal = Calendar.getInstance();
+                        cal.setTime(DateUtil.getJavaDate(cell.getNumericCellValue()));
+
+                        return cal.get(Calendar.DAY_OF_MONTH) + "/"
+                                + (cal.get(Calendar.MONTH) + 1) + "/"
+                                + cal.get(Calendar.YEAR);
+                    }
+
+                    return String.valueOf(cell.getNumericCellValue());
+
+                case BOOLEAN:
+                    return String.valueOf(cell.getBooleanCellValue());
+
+                case BLANK:
+                    return "";
+
+                case FORMULA:
+
+                    try {
+                        return cell.getStringCellValue();
+                    } catch (Exception e) {
+                        return String.valueOf(cell.getNumericCellValue());
+                    }
+
+                default:
+                    return "";
+            }
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+            return "row " + rowNum + " or column "
+                    + colName + " does not exist in xls";
         }
     }
 
 
 
     // returns the data from a cell
+    //  SE CAMBIA 12 DE MAYO
     public String getCellData(String sheetName,int colNum,int rowNum){
-        try{
+        /*try{
             if(rowNum <=0)
                 return "";
 
@@ -186,6 +269,72 @@ public class ExcelReader {
 
             e.printStackTrace();
             return "row "+rowNum+" or column "+colNum +" does not exist  in xls";
+        }*/
+        try {
+
+            if (rowNum <= 0)
+                return "";
+
+            int index = workbook.getSheetIndex(sheetName);
+
+            if (index == -1)
+                return "";
+
+            sheet = workbook.getSheetAt(index);
+
+            row = sheet.getRow(rowNum - 1);
+
+            if (row == null)
+                return "";
+
+            cell = row.getCell(colNum);
+
+            if (cell == null)
+                return "";
+
+            switch (cell.getCellType()) {
+
+                case STRING:
+                    return cell.getStringCellValue();
+
+                case NUMERIC:
+
+                    if (DateUtil.isCellDateFormatted(cell)) {
+
+                        Calendar cal = Calendar.getInstance();
+                        cal.setTime(DateUtil.getJavaDate(cell.getNumericCellValue()));
+
+                        return cal.get(Calendar.DAY_OF_MONTH) + "/"
+                                + (cal.get(Calendar.MONTH) + 1) + "/"
+                                + cal.get(Calendar.YEAR);
+                    }
+
+                    return String.valueOf(cell.getNumericCellValue());
+
+                case BOOLEAN:
+                    return String.valueOf(cell.getBooleanCellValue());
+
+                case BLANK:
+                    return "";
+
+                case FORMULA:
+
+                    try {
+                        return cell.getStringCellValue();
+                    } catch (Exception e) {
+                        return String.valueOf(cell.getNumericCellValue());
+                    }
+
+                default:
+                    return "";
+            }
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+            return "row " + rowNum + " or column "
+                    + colNum + " does not exist in xls";
         }
     }
 

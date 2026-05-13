@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ba6f43fc-a432-4bfd-a0e9-87f2ebbc6b88" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apis/CreateCustomerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/CreateCustomerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apis/DeleteCustomerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/DeleteCustomerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setUp/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUp/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

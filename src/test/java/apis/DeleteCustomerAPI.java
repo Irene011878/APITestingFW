@@ -7,7 +7,7 @@ import java.util.Hashtable;
 
 import static io.restassured.RestAssured.given;
 
-public class DeleteCustomerAPI extends BaseTest {
+/*public class DeleteCustomerAPI extends BaseTest {
 
     public static Response sendDeleteRequestToDeleteCustomerAPIWithValidId(Hashtable<String, String> data) {
 
@@ -16,5 +16,19 @@ public class DeleteCustomerAPI extends BaseTest {
 
         return response;
 
+    }
+}*/
+
+public class DeleteCustomerAPI extends BaseTest {
+
+    public static Response sendDeleteRequestToDeleteCustomerAPIWithValidId(
+            Hashtable<String, String> data) {
+
+        Response response = given()
+                .auth()
+                .basic(getSecret("STRIPE_SECRET_KEY", "validSecretKey"), "")
+                .delete(config.getProperty("customerAPIEndPoint") + "/" + data.get("id"));
+
+        return response;
     }
 }
