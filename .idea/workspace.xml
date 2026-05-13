@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/apis/DeleteCustomerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/DeleteCustomerAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setUp/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUp/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/CreateCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/CreateCustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
     </list>

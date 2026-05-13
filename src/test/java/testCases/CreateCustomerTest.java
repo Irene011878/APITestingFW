@@ -42,7 +42,7 @@ public class CreateCustomerTest extends BaseTest {
 
         Response response = CreateCustomerAPI.sendPostRequestToCreateCustomerAPIWithInValidAuthKey(
                 data.get("name"),
-                data.get("emaiL"),
+                data.get("email"),
                 data.get("description"));
 
         ExtentListeners.testReport.get().info(data.toString());
@@ -51,7 +51,7 @@ public class CreateCustomerTest extends BaseTest {
 
         System.out.println(response.statusCode());
 
-        Assert.assertEquals(response.statusCode(), 200);
+        Assert.assertEquals(response.statusCode(), 401);
     }
 
 

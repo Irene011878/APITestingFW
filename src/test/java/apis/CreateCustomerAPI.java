@@ -55,7 +55,7 @@ public class CreateCustomerAPI extends BaseTest {
 
         Response response = given()
                 .auth()
-                .basic(getSecret("INVALID_SECRET_KEY", "invalidSecretKey"), "")
+                .basic(getSecret("STRIPE_INVALID_SECRET_KEY", "invalidSecretKey"), "")
                 .formParam("name", name)
                 .formParam("email", email)
                 .formParam("description", description)
