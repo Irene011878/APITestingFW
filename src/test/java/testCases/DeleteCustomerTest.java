@@ -28,15 +28,6 @@ public class DeleteCustomerTest extends BaseTest {
 
         System.out.println(response.statusCode());
 
-        /*String actual_id = response.jsonPath().get("id").toString();
-        System.out.println("Getting id from json path: " + actual_id);
-        Assert.assertEquals(actual_id, data.get("id"), "ID is not matching");*/
-
-        /*JSONObject jsonpObject = new JSONObject(response.asString());
-        System.out.println(jsonpObject.has("id"));
-        Assert.assertTrue(jsonpObject.has("id"), "ID is not present in the JSON response");*/
-
-
         System.out.println("Presence checked from Object key: " + TestUtil.jsonHasKey(response.asString(), "object"));
         System.out.println("Presence checked from Deleted key: " + TestUtil.jsonHasKey(response.asString(), "deleted"));
         Assert.assertTrue(TestUtil.jsonHasKey(response.asString(), "id"), "ID key is not present in the JSON response" );

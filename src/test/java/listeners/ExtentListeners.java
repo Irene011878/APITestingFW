@@ -52,15 +52,6 @@ public class ExtentListeners implements ITestListener {
         testReport.get().fail("<details>" + "<summary>" + "<b>" + "<font color=" + "red>" + "Exception Occured:Click to see"
                 + "</font>" + "</b >" + "</summary>" +excepionMessage.replaceAll(",", "<br>")+"</details>"+" \n");
 
-	/*	try {
-
-			ExtentManager.captureScreenshot();
-			testReport.get().fail("<b>" + "<font color=" + "red>" + "Screenshot of failure" + "</font>" + "</b>",
-					MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.screenshotName)
-							.build());
-		} catch (IOException e) {
-
-		}*/
 
         String failureLogg="TEST CASE FAILED";
         Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);

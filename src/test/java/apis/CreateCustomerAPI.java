@@ -5,31 +5,6 @@ import setUp.BaseTest;
 
 import static io.restassured.RestAssured.given;
 
-/*public class CreateCustomerAPI extends BaseTest {
-
-    public static Response sendPostRequestToCreateCustomerAPIWithValidAuthKey( String name, String email, String description){
-
-        Response response = given().auth().basic(config.getProperty("validSecretKey"), "")
-                .formParam("email", email)
-                .formParam("description", description)
-                .post(config.getProperty("customerAPIEndPoint"));
-
-        return response;
-
-    }
-
-    public static Response sendPostRequestToCreateCustomerAPIWithInValidAuthKey(String name, String email, String description){
-
-        Response response = given().auth().basic(config.getProperty("invalidSecretKey"), "")
-                .formParam("email", "LuisAguilar@way2automation.com")
-                .formParam("description", "Adding a new customer in framework")
-                .post(config.getProperty("customerAPIEndPoint"));
-
-        return response;
-
-
-    }
-}*/
 public class CreateCustomerAPI extends BaseTest {
 
     public static Response sendPostRequestToCreateCustomerAPIWithValidAuthKey(

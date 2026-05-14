@@ -8,10 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apis/CreateCustomerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/CreateCustomerAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apis/DeleteCustomerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/DeleteCustomerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ExtentListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setUp/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUp/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/CreateCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/CreateCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/DeleteCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/DeleteCustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/testData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/testData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
